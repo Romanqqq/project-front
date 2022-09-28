@@ -1,0 +1,17 @@
+.listTable{
+    width: 100%;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+.listTable th{
+    font-weight: bold;
+    padding: 5px;
+    background: #cd8484; /* фон задний,1 строка */
+    border: 2px solid crimson;/* цвет границ 1 строки */
+}
+.listTable td{
+    border: 2px solid crimson;/* цвет границ остальных строк */
+    background: #e5afaf;/* фон задний,остальные строки строка */
+    padding: 5px;
+    text-align: center;
+}
